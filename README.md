@@ -17,7 +17,7 @@ Once the project moves into development, the press release can be used as a touc
  -->
 
 ## Heading ##
-  > My product is a chatroom and, if I hae time, there will also be a game there.
+  > My product is a chatroom and, if I have time, there will also be a game there.
 
 ## Sub-Heading ##
   > The product is for people who want to chat and possibly play a game.
@@ -32,10 +32,10 @@ Once the project moves into development, the press release can be used as a touc
   > It's a good little chatroom, free of all of the complexities of other places to chat.
 
 ## Quote from You ##
-  > Want to chat and play a game? Well now you can!
+  > "Want to chat and play a game? Well now you can!"
 
 ## How to Get Started ##
-  > "All you have to do is go to the website."
+  > All you have to do is go to the website.
 
 ## Customer Quote ##
   > "I really needed a place to chat and play a game. Now that this product is here, I feel fulfilled."

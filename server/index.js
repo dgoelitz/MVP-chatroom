@@ -8,3 +8,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(__dirname + '/../client/dist'));
+
+app.get('/mainroom', (req, res) => {
+  res.send('We are on home!')
+});
+
+app.listen(PORT, () => {
+  console.log(`listening on port ${PORT}`);
+});

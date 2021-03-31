@@ -4,7 +4,7 @@ import MessageForm from './MessageForm.jsx';
 import socketIOClient from "socket.io-client";
 // const PORT = 3000;
 // const ENDPOINT = `http://localhost:${PORT}`;
-const ENDPOINT = 'http://catchathr.herokuapp.com/socket.io';
+const ENDPOINT = 'ws://catchathr.herokuapp.com/socket.io';
 const socket = socketIOClient(ENDPOINT);
 const axios = require('axios').default;
 

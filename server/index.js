@@ -32,6 +32,6 @@ io.on('connection', (socket) => {
   });
 });
 
-http..listen(process.env.PORT || PORT, () => {
+http.listen(process.env.PORT || PORT, () => {
   console.log(`listening on ${process.env.PORT || PORT}`);
 });;

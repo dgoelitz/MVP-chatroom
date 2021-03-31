@@ -2,8 +2,9 @@ import React from 'react';
 import MessageList from './MessageList.jsx';
 import MessageForm from './MessageForm.jsx';
 import socketIOClient from "socket.io-client";
-const PORT = 3000;
-const ENDPOINT = `http://localhost:${PORT}`;
+// const PORT = 3000;
+// const ENDPOINT = `http://localhost:${PORT}`;
+const ENDPOINT = 'https://catchathr.herokuapp.com/socket.io'
 const socket = socketIOClient(ENDPOINT);
 const axios = require('axios').default;
 

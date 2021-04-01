@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
@@ -27,11 +27,11 @@ io.on('connection', (socket) => {
   });
   socket.on('chat message', (msg) => {
     console.log(msg.user + ': ' + msg.message);
-    postMessage(msg.user, msg.message)
+    postMessage(msg.user, msg.message);
     io.emit('chat message', msg);
   });
 });
 
-http.listen(process.env.PORT || PORT, () => {
-  console.log(`listening on ${process.env.PORT || PORT}`);
+http.listen(PORT, () => {
+  console.log(`listening on ${PORT}`);
 });;

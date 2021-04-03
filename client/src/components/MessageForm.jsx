@@ -9,6 +9,10 @@ class MessageForm extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+  componentDidMount() {
+    document.getElementById("textBox").focus();
+  }
+
   handleChange(event) {
     this.setState({value: event.target.value});
   }
@@ -22,15 +26,17 @@ class MessageForm extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form className="form" onSubmit={this.handleSubmit}>
         <input
           id="textBox"
           type="text"
-          placeholder="Your message here..."
+          className="text-box"
+          placeholder="Your meowssage here..."
+          autoComplete="off"
           value={this.state.value}
           onChange={this.handleChange}
         />
-        <input type="submit" value="Send" />
+        <input type="submit" value="Send" className="button" />
       </form>
     );
   }

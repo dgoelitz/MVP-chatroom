@@ -1,0 +1,76 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+}
+
+div {
+  height: 100%;
+}
+
+.chat-parent {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  background-color: lemonchiffon;
+}
+
+.title {
+  color: indianred;
+  padding-left: 30px;
+}
+
+/* .game-parent {
+  position: absolute;
+  display: flex;
+  right: 0px;
+  width: 50%;
+  background-color: indianred;
+} */
+
+.msg-list {
+  height: 80%;
+  overflow: auto;
+}
+
+.form {
+  width: 80%;
+  left: 0px;
+  margin-left: 30px;
+  padding: 0;
+}
+
+.text-box {
+  width: 50%;
+}
+
+.button {
+  background-color: indianred;
+}
+
+/* .game-window {
+  width: 426px;
+  height: 240px;
+  margin: auto;
+  border: 10px solid black;
+}
+
+.player-one {
+  width: 32px;
+  height: 32px;
+  top: 0px;
+  left: 0px;
+  position: relative;
+}
+
+.one-fish {
+  width: 32px;
+  height: 32px;
+  position: relative;
+} */
